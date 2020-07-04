@@ -1,3 +1,4 @@
+print("INTELLECTUAL FLAMES")
 # removing common characters 
 def remove_com_char(list1, list2): 
 
@@ -47,7 +48,7 @@ if __name__ == "__main__" :
 	count = len(p1_list) + len(p2_list) 
 
 	# list of FLAMES acronym 
-	result = ["Friends", "Love", "Affection", "Marriage", "Enemy", "Siblings"] 
+	result = ["Femenist", "Libral", "Altruistic", "Marxist", "Environmentalist", "Secular"] 
 
 	while len(result) > 1 : 
 
@@ -66,4 +67,4 @@ if __name__ == "__main__" :
 			result = result[ : len(result) - 1] 
 
 	# final result 
-	print("Relationship Type :", result[0]) 
+	print("Type :", result[0]) 
